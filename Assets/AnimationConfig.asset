@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab59cdf173efde342aba599664ba09d4, type: 3}
+  m_Name: AnimationConfig
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationConfig
+  pigRevealScalePeak: 1.3
+  pigRevealDuration: 0.1
+  pigDispatchMoveDuration: 0.2
+  pigDispatchScalePeak: 1.25
+  pigDispatchScaleDuration: 0.1
+  pigFireScalePeak: 1.1
+  pigFireScaleDuration: 0.1
+  pigReturnMoveDuration: 0.2
+  pigReturnScalePeak: 1.25
+  pigReturnScaleDuration: 0.1
+  pigExpireDuration: 0.25
+  laneSlideUpDuration: 0.2
+  cubeDestroyScalePeak: 1.3
+  cubeDestroyScaleUpDur: 0.05
+  cubeDestroyScaleDownDur: 0.05
+  cubeHitScalePeak: 3
+  cubeHitDuration: 0.33
+  lockDestroyScalePeak: 1.4
+  lockDestroyScaleUpDur: 0.1
+  lockDestroyScaleDownDur: 0.1
+  lockDestroyHoldDur: 0.04
+  keyUnlockPunchStrength: 0.25
+  keyUnlockPunchDuration: 0.25
+  keyDestroyScalePeak: 1.4
+  keyDestroyScaleUpDur: 0.1
+  keyDestroyScaleDownDur: 0.1
+  keyDestroyHoldDur: 0.04
+  keyFlyDelay: 0.15
+  keyFlyDuration: 0.5

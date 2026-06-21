@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beabc1e34b004094f9ca63dd8c199750, type: 3}
+  m_Name: GameEventRegistry
+  m_EditorClassIdentifier: Assembly-CSharp::GameEventRegistry
+  onLevelStart: {fileID: 11400000, guid: fcf94854c50229b4da8a4a98b6e3ed23, type: 2}
+  onLevelComplete: {fileID: 11400000, guid: a1f2ce4d752d09943a195eb640c37a2a, type: 2}
+  onLevelFailed: {fileID: 11400000, guid: b22b63395422be14ea2250fa344c29b8, type: 2}
+  onPigFinishedPass: {fileID: 11400000, guid: 81d734f478e167c4e9cda29239752726, type: 2}
+  onPigExpired: {fileID: 11400000, guid: 76402726e16ac4d4784e56f1ed1fe7e8, type: 2}
+  onPigRevealed: {fileID: 11400000, guid: ac29ec6c13513794c8573c5b3fb846e8, type: 2}
+  onQueueEmpty: {fileID: 11400000, guid: d4cdd83b3e6818e45973f43c124921b7, type: 2}
+  onCubeHit: {fileID: 11400000, guid: daa0e6e99b604494a91e0525d630a952, type: 2}
+  onCubeCleared: {fileID: 11400000, guid: 99dd98f2c0d6df04eb9ceead69b3bf02, type: 2}
+  onBoardCleared: {fileID: 11400000, guid: 5641d8f412ae52f48bfd67e9534e78e8, type: 2}
+  onLockUnlocked: {fileID: 11400000, guid: b7f35fc76885d0f4c975cd2eb05154e9, type: 2}
+  onTap: {fileID: 11400000, guid: 215aa9eabf537bd4bacc56c04c1092d6, type: 2}
